@@ -7,7 +7,7 @@ import Error404 from './pages/Error404'
 function App() {
 
   return (
-    <BrowserRouter basename='/facebook'>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route path="/" element={<Login />}/>
         <Route path="/home" element={<Home />}/>
